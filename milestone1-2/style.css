@@ -1,0 +1,94 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset {
+    border: 2px solid #9ce3ff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+}
+
+legend {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    padding: 0 10px;
+}
+
+h2, h3 {
+    color: #fff;
+    background-color: #7bb3fc;
+    padding: 8px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px green;
+}
+
+h2, h3 {
+    font-size: medium;
+}
+
+#personal-information p {
+    margin: 5px 1;
+}
+
+a {
+    color: #1e90ff;
+    text-decoration: underline;
+}
+
+
+
+#skills{
+    background-color: #ffffff;
+    margin: 5px 0;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+#education, #work-experience {
+    border-top: 2px solid #eee;
+    padding-top: 8px;
+}
+
+
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.95rem;
+    }
+
+    #toggle-skills {
+        background: #007BFF;
+        color: white;
+        border: 2px solid #0056b3;
+        padding: 10px 20px;
+        font-size: 14px;
+        border-radius: 8px;
+        cursor: pointer;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+    }
+    
+   
+    #toggle-skills:active {
+        background: #004085;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        transform: translateY(2px);
+    }
+    
